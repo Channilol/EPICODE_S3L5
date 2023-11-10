@@ -270,6 +270,7 @@ function newestMovie() {
     moviesYear.push(movieYear)
   }
   moviesYear.sort()
+  moviesYear.reverse()
   console.log(moviesYear[0])
 }
 
